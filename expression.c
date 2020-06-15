@@ -19,7 +19,7 @@ int main() {
 	cd=c*d;
 	erg=(a*b)+(c*d);
 	
-	printf("Das Ergebnis von %d+%d=%d"),ab,cd,erg;
+	printf("Das Ergebnis von %d+%d=%d",ab,cd,erg);
 	
 	return 0;
 }

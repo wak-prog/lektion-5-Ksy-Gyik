@@ -13,9 +13,11 @@ int main() {
 	printf("Bitte 4 Zahlen eingeben:\n");
 	scanf("%d %d %d %d",&a,&b,&c,&d);
 	
+	ab=a*b;
+	cd=c*d;
 	erg=(a*b)+(c*d);
 	
-	printf("Das Ergebnis von %d*%d+%d*%d=%d",a,b,c,d,erg);
+	printf("Das Ergebnis von %d+%d=%d,ab,cd,erg;
 	
 	return 0;
 }

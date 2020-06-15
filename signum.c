@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int signum(int a)
-{
+int signum(int a){
 	
 	if(a<=-1){
-		return -1;
+	return -1;
 	}
 	else if(a==0){
-		return 0;
+	return 0;
 	}
 	else {
-		return 1;
+	return 1;
 	}
 	
 }
